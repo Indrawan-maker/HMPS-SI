@@ -12,13 +12,13 @@ export default function History() {
                 >Dengan website ini, kalian bisa memantau acara mendatang ataupun acara yang sedang berlangsung dari HMPS SI. Dan juga, kalian dapat mencari informasi mengenai jurusan Sistem Informasi, termasuk informasi tentang peminatan dan lain sebagainya.</p>
             </div>
             <div className="grid md:flex items-center justify-center gap-8 mt-12">
-            <div className="w-80 h-80 md:w-140  md:h-80">
+            <div className="min-w-72 min-h-72 md:w-140  md:h-80">
                 <Image className="w-full h-full object-cover rounded-xl"
                 src={img} alt="HMPS SI"/>
             </div>
             <div className="grid mb-38 tracking-wide">
             <h1 className="text-2xl md:text-4xl font-serif text-black text-left mb-4 font-extralight">HMPS SI</h1>
-                <p className="text-sm md:text-sm text-gray-800 text-left max-w-90 md:max-w-xl leading-relaxed"
+                <p className="text-sm md:text-sm text-gray-800 text-left min-w-72 md:max-w-xl leading-relaxed"
                 >HMPS SI adalah organisasi yang bertujuan untuk memberikan wadah pengembangan diri melalui banyak kegiatan di dalamnya. Dan juga sebagai perantara seluruh mahasiswa Sistem Informasi untuk menyampaikan aspirasi serta saran mengenai program studi Sistem Informasi. Selain itu, HMPS SI juga berperan sebagai wadah untuk mempererat hubungan antar mahasiswa Sistem Informasi.</p>
                 </div>
                 </div>
@@ -26,7 +26,7 @@ export default function History() {
             <div className="grid md:flex items-center justify-center gap-8 mt-32">
             <div className="grid max-w-xl">
             <h1 className="text-2xl md:text-4xl font-serif text-black text-left mb-4 font-extralight">VISI & MISI</h1>
-                <p className="text-sm md:text-sm text-gray-800 text-left max-w-80 md:max-w-xl leading-relaxed"
+                <p className="text-sm md:text-sm text-gray-800 text-left min-w-72 md:max-w-xl leading-relaxed"
                 >Menjadi Himpunan Mahasiswa Sistem Informasi yang unggul dan berdaya saing tinggi, serta mewujudkan rasa kekeluargaan yang kuat, saling mendukung, dan membangun lingkungan yang inklusif bagi semua anggota.</p>
                 <ul className="text-black text-sm mt-2 max-w-3xl mb-2 tracking-wide">
                     <li className="flex items-center justify-start gap-4 mb-2"><CiBookmarkCheck className="w-12 h-12"/>
@@ -46,7 +46,7 @@ export default function History() {
                     </li>
                 </ul>
                 </div>
-            <div className="w-80 h-80 md:w-140  md:h-80">
+            <div className="min-w-72 min-h-72 md:w-140  md:h-80">
                 <Image className="w-full h-full object-cover rounded-xl"
                 src={img2} alt="HMPS SI"/>
             </div>
