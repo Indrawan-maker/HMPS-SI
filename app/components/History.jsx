@@ -1,4 +1,4 @@
-import img from "./images/history.jpg"
+import img from "./images/activity/ketua.jpg"
 import img2 from "./images/activity/lab.jpg"
 import  Image  from 'next/image';
 import { CiBookmarkCheck } from "react-icons/ci";
