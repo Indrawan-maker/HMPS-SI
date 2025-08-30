@@ -5,6 +5,8 @@
     object-position: 50% 50%;
 }
 
+
+
 @media (min-width: 1000px) {
     .custom-image-position {
         object-position: 50% 40%;
