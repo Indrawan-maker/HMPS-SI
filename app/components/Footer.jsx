@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         
         <footer>
-            <section className="grid md:flex items-center justify-center mt-2 md:mt-16 ml-0 md:ml-22 mb-16 gap-6 p-4">
-                <div className="min-w-74 min-h-74 md:w-160 md:h-80">
+            <section className="grid md:flex items-center justify-center mt-12 md:mt-16 ml-0 md:ml-22 mb-16 gap-6 p-4">
+                <div className="min-w-74 min-h-74 md:w-160 md:h-80 -mb-12 md:mb-0">
                     <iframe className="w-full h-full rounded-2xl"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.989153667164!2d117.07355967431641!3d-0.5660035999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df68180ac09ab79%3A0xc70cf2e7c7fe1f57!2sGedung%20Kuliah%20Dakwah%20dan%20Komunikasi%20UINSI!5e0!3m2!1sen!2sid!4v1756466736669!5m2!1sen!2sid" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
