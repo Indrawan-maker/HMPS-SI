@@ -16,7 +16,7 @@ export default function History() {
                 <Image className="w-full h-full object-cover rounded-xl"
                 src={img} alt="HMPS SI"/>
             </div>
-            <div className="grid mb-16 md:mb-38 tracking-wide -mt-16 md:mt-0">
+            <div className="grid mb-16 md:mb-38 tracking-wide -mt-4 md:mt-0">
             <h1 className="text-2xl md:text-4xl font-serif text-black text-left mb-4 font-extralight">HMPS SI</h1>
                 <p className="text-sm md:text-sm text-gray-800 text-left min-w-74 md:max-w-xl leading-relaxed"
                 >HMPS SI adalah organisasi yang bertujuan untuk memberikan wadah pengembangan diri melalui banyak kegiatan di dalamnya. Dan juga sebagai perantara seluruh mahasiswa Sistem Informasi untuk menyampaikan aspirasi serta saran mengenai program studi Sistem Informasi. Selain itu, HMPS SI juga berperan sebagai wadah untuk mempererat hubungan antar mahasiswa Sistem Informasi.</p>
@@ -36,7 +36,7 @@ export default function History() {
                     </li>
                     <li className="flex items-center justify-start gap-4 mb-2"><CiBookmarkCheck className="w-12 h-12"/>
                     <div>
-                    Menciptakan suasana yang hangat dan akrab di antara anggota himpunan dengan seluruh masyarakat Teknik Informatika.
+                    Menciptakan suasana yang hangat dan akrab di antara anggota himpunan dengan seluruh masyarakat Sistem Informasi.
                     </div>
                     </li>
                     <li  className="flex items-center justify-start gap-4 mb-2"><CiBookmarkCheck className="w-12 h-12"/>
