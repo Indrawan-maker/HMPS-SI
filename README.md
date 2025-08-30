@@ -1,9 +1,9 @@
 
-# **My Perpus**
+# **HMPS SI**
 <hr>
 <br>
-    adalah tempat anda bisa menyimpan buku anda dengan memasukan judul buku dan nama penulis,
-     buku anda akan tersimpan di web ini.
+
+    adalah pusat informasi di mana anda dapat menemukan hal-hal terkait bidang studi.
 
 <br>
 
@@ -12,9 +12,10 @@
 **Library yg digunakan :**
 <br>
 <br>
--   sweet alert : handle input kosong & delete file
--   React Icon : for that icon beside vidi & misi
+-   React Icon : for that icon beside visi & misi
 -   daisyUI : for the Footer
+-   react-hamburger : for hamburgerMenu
+-   AOS : for the animation fade up
 
 <br>
 <hr>
