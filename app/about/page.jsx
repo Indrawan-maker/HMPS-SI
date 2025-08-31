@@ -23,17 +23,17 @@ export default function About() {
             <h1 className="font-serif text-2xl font-bold mb-4">VISI & MISI</h1>
             <p className=" mb-4">Menjadi Himpunan Mahasiswa Sistem Informasi yang unggul dan berdaya saing tinggi, serta mewujudkan rasa kekeluargaan yang kuat, saling mendukung, dan membangun lingkungan yang inklusif bagi semua anggota.</p>
             <ul className="text-sm mt-2 max-w-5xl mb-2 tracking-wide">
-                                    <li className="flex items-center justify-start gap-4 mb-1"><CiBookmarkCheck className="w-8 h-8" />
+                                    <li className="flex items-center justify-start gap-4 mb-1"><CiBookmarkCheck className="w-22 h-22 md:w-8 md:h-8" />
                                         <div>
                                             Meningkatkan kualitas pendidikan SDM Prodi Sistem Informasi dengan mengikuti kurikulum yang sudah diterapkan kampus.
                                         </div>
                                     </li>
-                                    <li className="flex items-center justify-start gap-4 mb-1"><CiBookmarkCheck className="w-8 h-8" />
+                                    <li className="flex items-center justify-start gap-4 mb-1"><CiBookmarkCheck className="w-22 h-22 md:w-8 md:h-8" />
                                         <div>
                                             Menciptakan suasana yang hangat dan akrab di antara anggota himpunan dengan seluruh masyarakat Sistem Informasi.
                                         </div>
                                     </li>
-                                    <li className="flex items-center justify-start gap-4 mb-1"><CiBookmarkCheck className="w-8 h-8" />
+                                    <li className="flex items-center justify-start gap-4 mb-1"><CiBookmarkCheck className="w-22 h-22 md:w-8 md:h-8" />
                                         <div>
                                             Menyelenggarakan program-program yang dapat memberikan ruang untuk bekerjasama antara pihak eksternal maupun internal.
                                         </div>
