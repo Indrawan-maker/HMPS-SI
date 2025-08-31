@@ -50,7 +50,7 @@ export default function History() {
                     <ul className="text-black text-sm mt-2 max-w-3xl mb-2 tracking-wide">
                         <li className="flex items-center justify-start gap-4 mb-2"><CiBookmarkCheck className="w-12 h-12" />
                             <div>
-                                Meningkatkan kualitas pendidikan SDM Prodi Sistem Informasi dengan mengikuti kurikulum yang sudah diterapkan kampus
+                                Meningkatkan kualitas pendidikan SDM Prodi Sistem Informasi dengan mengikuti kurikulum yang sudah diterapkan kampus.
                             </div>
                         </li>
                         <li className="flex items-center justify-start gap-4 mb-2"><CiBookmarkCheck className="w-12 h-12" />
