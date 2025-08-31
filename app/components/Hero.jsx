@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img from './images/hero.jpg'
+import img from './images/hero.webp'
 import Navbar from "./Navbar";
 
 

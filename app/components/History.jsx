@@ -1,7 +1,6 @@
 'use client'
 
-
-import img from "./images/activity/ketua.jpg"
+import img from "./images/activity/ketua.webp"
 import img2 from "./images/activity/lab.jpg"
 import Image from 'next/image';
 import { useEffect } from "react"
