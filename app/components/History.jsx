@@ -9,6 +9,7 @@ import AOS from "aos"
 import 'aos/dist/aos.css'
 import { CiBookmarkCheck } from "react-icons/ci";
 import Avatar from "./lib/Avatar";
+import Link from "next/link";
 
 export default function History() {
 
@@ -35,8 +36,8 @@ export default function History() {
                     <h1 className="text-2xl md:text-4xl font-serif text-black text-left mb-4 font-extralight">HMPS SI</h1>
                     <p className="text-sm md:text-sm text-gray-800 text-left min-w-74 md:max-w-xl leading-relaxed mb-6"
                     >HMPS SI adalah organisasi yang bertujuan untuk memberikan wadah pengembangan diri melalui banyak kegiatan di dalamnya. Dan juga sebagai perantara seluruh mahasiswa Sistem Informasi untuk menyampaikan aspirasi serta saran mengenai program studi Sistem Informasi. Selain itu, HMPS SI juga berperan sebagai wadah untuk mempererat hubungan antar mahasiswa Sistem Informasi.</p>
-                <div className="flex justify-between items-center">
-                    <button className="rounded-md font-bold bg-slate-500 w-32 h-10 cursor-pointer text-sm">Tentang kami</button>
+                <div className="flex justify-between items-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <button className="rounded-md font-bold bg-slate-600 w-32 h-10 cursor-pointer text-sm hover:bg-slate-800"><Link href="/about" className="block">Tentang kami</Link></button>
                     <Avatar />
                 </div>
                 </div>
