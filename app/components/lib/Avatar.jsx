@@ -1,5 +1,5 @@
 import img1 from "../images/member/m1.webp"
-import img2 from "../images/member/m4.webp"
+import img2 from "../images/member/m2.webp"
 import img3 from "../images/member/m6.webp"
 import Image from 'next/image';
 
