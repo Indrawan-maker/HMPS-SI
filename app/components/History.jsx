@@ -25,7 +25,7 @@ export default function History() {
                 <p className="text-sm md:text-sm text-gray-800 text-center max-w-80 md:max-w-4xl leading-relaxed"
                 >Dengan website ini, kalian bisa memantau acara mendatang ataupun acara yang sedang berlangsung dari HMPS SI. Dan juga, kalian dapat mencari informasi mengenai jurusan Sistem Informasi, termasuk informasi tentang peminatan dan lain sebagainya.</p>
             </div>
-            <div className="grid md:flex items-center justify-center gap-8 mt-12" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div className="grid md:flex items-center justify-center gap-8 mt-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <div className="min-w-74 min-h-74 md:w-140  md:h-80" 
                 >
                     <Image className="w-full h-full object-cover rounded-xl object-top custom-image-position"

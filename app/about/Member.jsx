@@ -1,3 +1,5 @@
+'use client'
+
 import img1 from "../components/images/member/m1.webp"
 import img2 from "../components/images/member/m2.webp"
 import img3 from "../components/images/member/m3.webp"
@@ -11,8 +13,17 @@ import img10 from "../components/images/member/m10.webp"
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 import Image from 'next/image';
+import AOS from "aos"
+import { useEffect } from "react"
 
 export default function Member() {
+
+        useEffect(()=> {
+            AOS.init({
+                duration: 800,
+                once: false,
+            })
+        },[])
 
     const data = [
         {
@@ -81,21 +92,19 @@ export default function Member() {
         <div className="grid md:grid-cols-2 justify-center items-center max-w-280 gap-x-0 gap-y-1 md:gap-x-6 md:gap-y-1  mx-auto">
             {data.map((item, index) => {
                 return (
-                    <section  key={index}>
+                    <section  key={index} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div className="flex items-center md:justify-start bg-slate-700 min-w-76 h-32 mx-auto md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
                             <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
-
                                 <Image className="w-full h-full scale-170 object-cover"
                                     src={item.img} alt="hmps si"
                                 />
-
                             </div>
                             <div className="ml-4 md:ml-4">
                                 <div className=" mt-1 md:mt-2 mb-1 md:mb-2">
                                     <h1 className="font-bold text-sm md:text-xl font-serif">{item.position}</h1>
                                 </div>
                                 <hr />
-                                <h4 className="font-bold text-sm md:text-base font-serif mb-4 mt-1 md:mb-6 md:mt-6">{item.name}</h4>
+                                <h4 className="font-bold text-sm md:text-base font-serif mb-4 mt-1 md:mb-8 md:mt-1">{item.name}</h4>
                                 <p className="text-sm mb-2 md:mb-0">{item.divisi}</p>
                                 <div className="flex gap-1 md:gap-2">
                                     <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
