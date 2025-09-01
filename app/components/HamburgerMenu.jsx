@@ -31,8 +31,6 @@ export default function HamburgerMenu() {
                         <main className="flex justify-center items-center h-screen text-xl md:text-4xl text-center font-serif">
                             <ul>
                                 <li className="mb-4 md:mb-12 cursor-pointer"><Link href='/' className="block">Beranda</Link></li>
-                                <li className="mb-4 md:mb-12 cursor-pointer"><Link href='/news' className="block">Seputar SI</Link></li>
-                                <li className="mb-4 md:mb-12 cursor-pointer"><Link href='/event' className="block">Event</Link></li>
                                 <li className="mb-4 md:mb-12">
                                     <Link href='/about' className="block">Tentang kami</Link>
                                 </li>
