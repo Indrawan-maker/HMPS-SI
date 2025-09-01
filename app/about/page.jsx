@@ -2,6 +2,8 @@ import Navbar from "../components/Navbar";
 import  Image  from 'next/image';
 import  logo  from '../components/images/logo.webp';
 import { CiBookmarkCheck } from "react-icons/ci";
+import Member from "./Member"
+import Footer from "../components/Footer";
 
 
 export default function About() {
@@ -40,9 +42,14 @@ export default function About() {
                                     </li>
                                 </ul>
             </div>
-
             </div>
         </section>
+        <section className="mt-12 flex items-center justify-center">
+            <Member />
+        </section>
+        <footer>
+            <Footer />
+        </footer>
         </div>
     )
 }
