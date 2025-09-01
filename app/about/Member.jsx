@@ -10,99 +10,103 @@ import img9 from "../components/images/member/m9.webp"
 import img10 from "../components/images/member/m10.webp"
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
-import  Image  from 'next/image';
+import Image from 'next/image';
 
 export default function Member() {
 
-    // const img = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
-
+    const data = [
+        {
+            img: img1,
+            position: "Ketua HIMA SI",
+            divisi: "Ketua Himpunan",
+            name: "Abdul Rozaq"
+        },
+        {
+            img: img2,
+            position: "Wakil Ketua HIMA SI",
+            divisi: "Wakil Ketua Himpunan",
+            name: "Abdul Muzakkir"
+        },
+        {
+            img: img3,
+            position: "Sekretaris",
+            divisi: "BPI - Sekretaris",
+            name: "Abdul Terpadu"
+        },
+        {
+            img: img4,
+            position: "Sekretaris",
+            divisi: "Kabid - Sekretaris",
+            name: "Asri Calyani"
+        },
+        {
+            img: img5,
+            position: "Bendahara",
+            divisi: "BPI - Bendahara",
+            name: "Maysharah"
+        },
+        {
+            img: img6,
+            position: "Bendahara",
+            divisi: "Kabid - Bendahara",
+            name: "Naura"
+        },
+        {
+            img: img7,
+            position: "Pendidikan",
+            divisi: "Staf - Pendidikan",
+            name: "Abiyyu Cakra"
+        },
+        {
+            img: img8,
+            position: "Riset & Tech",
+            divisi: "Staf - Riset & Tech",
+            name: "Noviana Nur Shanty"
+        },
+        {
+            img: img9,
+            position: "Viskom",
+            divisi: "Kabid - Viskom",
+            name: "Diah Ayu"
+        },
+        {
+            img: img10,
+            position: "PSDM",
+            divisi: "Staf - PSDM",
+            name: "Marsela"
+        }
+    ]
 
     return (
-        <div className="grid md:grid-cols-2 justify-center items-center max-w-280 gap-22 mx-auto">
-        <section>
-            <div className="flex items-center justify-center md:justify-start bg-slate-700 w-76 h-32 mx-auto  md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
-                <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
-                <Image className="w-full h-full scale-180"
-                src={img1} alt="hmps si"/>
-                </div>
-                <div className="ml-1 md:ml-4">
-                    <div className="ml-10 md:ml-48 mt-1 md:mt-2 mb-1 md:mb-2">
-                <h1 className="font-bold text-base md:text-xl font-serif">Ketua HIMA SI</h1>
-                    </div>
-                    <hr />
-                <h4 className="font-bold text-sm md:text-base font-serif mb-1 mt-1 md:mb-6 md:mt-6">Muhammad Rizky Aditya</h4>
-                <p className="text-sm">Ketua Himpunan</p>
-                <div className="flex gap-1 md:gap-2">
-                <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
-                />
-                <AiOutlineLinkedin className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"/>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div className="flex items-center justify-center md:justify-start bg-slate-700 w-76 h-32 mx-auto  md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
-                <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
-                <Image className="w-full h-full scale-180"
-                src={img1} alt="hmps si"/>
-                </div>
-                <div className="ml-1 md:ml-4">
-                    <div className="ml-10 md:ml-48 mt-1 md:mt-2 mb-1 md:mb-2">
-                <h1 className="font-bold text-base md:text-xl font-serif">Ketua HIMA SI</h1>
-                    </div>
-                    <hr />
-                <h4 className="font-bold text-sm md:text-base font-serif mb-1 mt-1 md:mb-6 md:mt-6">Muhammad Rizky Aditya</h4>
-                <p className="text-sm">Ketua Himpunan</p>
-                <div className="flex gap-1 md:gap-2">
-                <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
-                />
-                <AiOutlineLinkedin className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"/>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div className="flex items-center justify-center md:justify-start bg-slate-700 w-76 h-32 mx-auto  md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
-                <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
-                <Image className="w-full h-full scale-180"
-                src={img1} alt="hmps si"/>
-                </div>
-                <div className="ml-1 md:ml-4">
-                    <div className="ml-10 md:ml-48 mt-1 md:mt-2 mb-1 md:mb-2">
-                <h1 className="font-bold text-base md:text-xl font-serif">Ketua HIMA SI</h1>
-                    </div>
-                    <hr />
-                <h4 className="font-bold text-sm md:text-base font-serif mb-1 mt-1 md:mb-6 md:mt-6">Muhammad Rizky Aditya</h4>
-                <p className="text-sm">Ketua Himpunan</p>
-                <div className="flex gap-1 md:gap-2">
-                <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
-                />
-                <AiOutlineLinkedin className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"/>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div className="flex items-center justify-center md:justify-start bg-slate-700 w-76 h-32 mx-auto  md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
-                <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
-                <Image className="w-full h-full scale-180"
-                src={img1} alt="hmps si"/>
-                </div>
-                <div className="ml-1 md:ml-4">
-                    <div className="ml-10 md:ml-48 mt-1 md:mt-2 mb-1 md:mb-2">
-                <h1 className="font-bold text-base md:text-xl font-serif">Ketua HIMA SI</h1>
-                    </div>
-                    <hr />
-                <h4 className="font-bold text-sm md:text-base font-serif mb-1 mt-1 md:mb-6 md:mt-6">Muhammad Rizky Aditya</h4>
-                <p className="text-sm">Ketua Himpunan</p>
-                <div className="flex gap-1 md:gap-2">
-                <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
-                />
-                <AiOutlineLinkedin className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"/>
-                </div>
-                </div>
-            </div>
-        </section>
+        <div className="grid md:grid-cols-2 justify-center items-center max-w-280 gap-x-0 gap-y-1 md:gap-x-6 md:gap-y-1  mx-auto">
+            {data.map((item, index) => {
+                return (
+                    <section  key={index}>
+                        <div className="flex items-center md:justify-start bg-slate-700 min-w-76 h-32 mx-auto md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
+                            <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
+
+                                <Image className="w-full h-full scale-170 object-cover"
+                                    src={item.img} alt="hmps si"
+                                />
+
+                            </div>
+                            <div className="ml-4 md:ml-4">
+                                <div className=" mt-1 md:mt-2 mb-1 md:mb-2">
+                                    <h1 className="font-bold text-sm md:text-xl font-serif">{item.position}</h1>
+                                </div>
+                                <hr />
+                                <h4 className="font-bold text-sm md:text-base font-serif mb-4 mt-1 md:mb-6 md:mt-6">{item.name}</h4>
+                                <p className="text-sm mb-2 md:mb-0">{item.divisi}</p>
+                                <div className="flex gap-1 md:gap-2">
+                                    <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
+                                    />
+                                    <AiOutlineLinkedin className="w-4 h-4 md:w-5 md:h-5 cursor-pointer" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                )
+            })}
         </div>
     )
 }

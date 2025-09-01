@@ -1,11 +1,8 @@
-
-
 import Image from "next/image";
 import img from "./images/logo.webp"
 import { Cross as Hamburger } from 'hamburger-react'
 import { useState } from "react";
 import Link from "next/link";
-
 
 export default function HamburgerMenu() {
     const [isOpen, setOpen] = useState(false)
