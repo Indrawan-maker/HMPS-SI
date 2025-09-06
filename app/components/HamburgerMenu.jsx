@@ -10,7 +10,7 @@ export default function HamburgerMenu() {
     return (
         <>
             <aside className={isOpen ? "overflow-hidden" : ''}>
-                <Hamburger toggled={isOpen} toggle={setOpen} size={38} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
+                <Hamburger toggled={isOpen} toggle={setOpen} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
                 />
                 {isOpen &&
                     <div className="absolute top-0 left-0 w-full h-screen p-4 text-black bg-slate-50">

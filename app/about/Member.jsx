@@ -1,5 +1,6 @@
 'use client'
 
+
 import img1 from "../components/images/member/m1.webp"
 import img2 from "../components/images/member/m2.webp"
 import img3 from "../components/images/member/m3.webp"
@@ -15,6 +16,7 @@ import { FaInstagram } from "react-icons/fa";
 import Image from 'next/image';
 import AOS from "aos"
 import { useEffect } from "react"
+
 
 export default function Member() {
 
