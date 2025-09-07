@@ -8,6 +8,7 @@
 @theme inline {
     --font-poppins: "Poppins", sans-serif;
     --color-primary: #0086c9;
+    --color-disable: #a0a0a0;
 }
 
 

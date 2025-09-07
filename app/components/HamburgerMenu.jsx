@@ -25,13 +25,13 @@ export default function HamburgerMenu() {
                             <Hamburger toggled={isOpen} toggle={setOpen} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
                             />
                         </header>
-                        <main className="flex justify-center items-center h-screen text-xl md:text-4xl text-center font-serif">
+                        <main className="flex justify-center items-center h-screen text-sm md:text-2xl text-center font-serif -mt-28 mb:mt-0">
                             <ul>
                                 <li className="mb-4 md:mb-12 cursor-pointer"><Link href='/' className="block">Beranda</Link></li>
                                 <li className="mb-4 md:mb-12">
                                     <Link href='/about' className="block">Tentang kami</Link>
                                 </li>
-                                <li className="mb-12">Kontak</li>
+                                <li className="mb-4  md:mb-12">Kontak</li>
                                 <li className="mb-4 md:mb-12">
                                     <Link href='/login' className="block">Admin</Link>
                                 </li>
