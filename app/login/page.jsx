@@ -29,16 +29,16 @@ export default function Login() {
                     htmlFor="email">
                         Email
                     </label>
-                    <input className='border px-4 py-3 w-full border-disable rounded-lg placeholder:text-disable placeholder:font-light text-sm'
+                    <input className='border px-4 py-3 w-full border-disable rounded-lg text-disable placeholder:text-disable placeholder:font-light text-sm'
                     name="email" 
                     type="email" placeholder='Masukkan email'/>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <label className='font-semibold text-slate-600'
                     htmlFor="password">
-                        Email
+                        Password
                     </label>
-                    <input className='border px-4 py-3 w-full border-disable rounded-lg placeholder:text-disable placeholder:font-light text-sm'
+                    <input className='border px-4 py-3 w-full border-disable rounded-lg text-disable placeholder:text-disable placeholder:font-light text-sm'
                     name="password" 
                     type="password" placeholder='Masukkan password'/>
                 </div>

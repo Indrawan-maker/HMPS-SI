@@ -27,4 +27,5 @@
 -   React
 -   Tailwindcss
 -   Nextjs
+-   firebase
 <hr>
