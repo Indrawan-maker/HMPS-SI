@@ -5,6 +5,10 @@
     object-position: 50% 50%;
 }
 
+@theme inline {
+    --font-poppins: "Poppins", sans-serif;
+    --color-primary: #0086c9;
+}
 
 
 @media (min-width: 1000px) {

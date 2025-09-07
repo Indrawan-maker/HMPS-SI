@@ -22,7 +22,7 @@ export default function HamburgerMenu() {
                                 </div>
                                 <h2 className="text-xl md:text-2xl font-extralight text-black font-serif">HMPS SI</h2>
                             </div>
-                            <Hamburger toggled={isOpen} toggle={setOpen} size={38} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
+                            <Hamburger toggled={isOpen} toggle={setOpen} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
                             />
                         </header>
                         <main className="flex justify-center items-center h-screen text-xl md:text-4xl text-center font-serif">
@@ -31,7 +31,10 @@ export default function HamburgerMenu() {
                                 <li className="mb-4 md:mb-12">
                                     <Link href='/about' className="block">Tentang kami</Link>
                                 </li>
-                                <li className="mb-22">Kontak</li>
+                                <li className="mb-12">Kontak</li>
+                                <li className="mb-4 md:mb-12">
+                                    <Link href='/login' className="block">Admin</Link>
+                                </li>
                             </ul>
                         </main>
                     </div>}
