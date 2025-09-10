@@ -1,10 +1,40 @@
+"use client"
+
 import Navbar from './../components/Navbar';
 import loginImg from "../components/images/login1.webp"
 import loginLogo from "../components/images/loginLogo.webp"
 import  Image  from 'next/image';
+import { useState } from "react"
+import { setCookie } from 'cookies-next';
 
 
 export default function Login() {
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const [name, setName] = useState("")
+    const [error, setError] = useState("")
+    const [loading, setLoading] = useState(false)
+
+    const handleLogin = async (e) => {
+        e.preventDefault()
+        setLoading(true)
+        try {
+            const userCrendential = await createUserWithEmailAndPassword(
+                auth,
+                email,
+                password)
+                const token = userCrendential.user.getIdToken();
+
+                setCookie('token', token, {
+                    maxAge: 60 * 60 * 24
+                })
+        } catch(err) {
+            setError(err.message ?? 'login gagal')
+        } finally {
+            setLoading(false)
+        }
+    }
+
     return (
         <>
         <nav>
@@ -14,7 +44,9 @@ export default function Login() {
         <section className='flex flex-col w-2/5 h-full p-16 gap-16 font-poppins'>
         <div className='flex flex-row gap-6 mt-22'>
             <div className='w-16 h-16'>
-            <Image src={loginLogo} alt="hmps si"className='w-full h-full object-cover'/>
+            <Image 
+            src={loginLogo} 
+            alt="hmps si"className='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col justify-center'>
         <p className='font-bold text-2xl text-primary'>HMPS SI</p>
@@ -23,13 +55,13 @@ export default function Login() {
         </div>
             <h1 className='text-base font-bold text-slate-600'>Masuk <br/>sebagai admin HMPS</h1>
             <form className='space-y-6'
-            onSubmit="">
+            onSubmit={handleLogin}>
                 <div className='flex flex-col gap-2'>
                     <label className='font-semibold text-slate-600'
                     htmlFor="email">
                         Email
                     </label>
-                    <input className='border px-4 py-3 w-full border-disable rounded-lg text-disable placeholder:text-disable placeholder:font-light text-sm'
+                    <input className='border px-4 py-3 w-full border-disable rounded-lg text-black placeholder:text-disable placeholder:font-light text-sm'
                     name="email" 
                     type="email" placeholder='Masukkan email'/>
                 </div>
@@ -38,7 +70,7 @@ export default function Login() {
                     htmlFor="password">
                         Password
                     </label>
-                    <input className='border px-4 py-3 w-full border-disable rounded-lg text-disable placeholder:text-disable placeholder:font-light text-sm'
+                    <input className='border px-4 py-3 w-full border-disable rounded-lg text-black placeholder:text-disable placeholder:font-light text-sm'
                     name="password" 
                     type="password" placeholder='Masukkan password'/>
                 </div>
@@ -51,7 +83,11 @@ export default function Login() {
             </form>
         </section>
             <section className='w-3/5 h-full'>
-                <Image src={loginImg} className='w-full h-full object-cover object-bottom'/>
+                <Image 
+                className='w-full h-full object-cover object-bottom'
+                src={loginImg} 
+                alt='hmps si'
+                />
             </section>
         </main>
         </>

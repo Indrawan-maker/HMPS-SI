@@ -13,7 +13,7 @@ export default function HamburgerMenu() {
                 <Hamburger toggled={isOpen} toggle={setOpen} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
                 />
                 {isOpen &&
-                    <div className="absolute top-0 left-0 w-full h-screen p-4 text-black bg-slate-50">
+                    <div className="absolute top-0 left-0 w-full min-h-screen p-4 text-black bg-slate-50">
                         <header className="flex items-center justify-between py-1 md:px-4 px-0">
                             <div className="flex justify-start items-center gap-2">
                                 <div className="w-10 h-10 md:w-12 md:h-12">
@@ -25,7 +25,7 @@ export default function HamburgerMenu() {
                             <Hamburger toggled={isOpen} toggle={setOpen} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
                             />
                         </header>
-                        <main className="flex justify-center items-center h-screen text-sm md:text-2xl text-center font-serif -mt-28 mb:mt-6">
+                        <main className="flex justify-center items-center h-screen text-sm md:text-2xl text-center font-serif -mt-28 md:mt-0">
                             <ul>
                                 <li className="mb-4 md:mb-12 cursor-pointer"><Link href='/' className="block">Beranda</Link></li>
                                 <li className="mb-4 md:mb-12">

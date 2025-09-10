@@ -7,7 +7,7 @@ export default function Dash() {
             <Navbar/>
         </nav>
         <main>
-            
+            ini dashboard
         </main>
         </div>
     )
