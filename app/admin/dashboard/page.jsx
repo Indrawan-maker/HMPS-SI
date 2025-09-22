@@ -1,5 +1,5 @@
 
-import Navbar from './../components/Navbar';
+import Navbar from '../../components/Navbar';
 export default function Dash() {
     return (
         <div className='bg-white w-full min-h-full'>
