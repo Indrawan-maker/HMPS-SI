@@ -91,11 +91,12 @@ export default function Member() {
     ]
 
     return (
-        <div className="grid md:grid-cols-2 justify-center items-center max-w-280 gap-x-0 gap-y-1 md:gap-x-6 md:gap-y-1  mx-auto">
+        <div className="grid md:grid-cols-2 justify-center items-center  max-w-full md:max-w-280 gap-x-0 gap-y-1 md:gap-x-6 md:gap-y-1 mx-auto px-4 md:px-0">
             {data.map((item, index) => {
                 return (
-                    <section  key={index} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div className="flex items-center md:justify-start bg-slate-700 min-w-76 h-32 mx-auto md:w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
+                    <section
+                    key={index} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div className="flex items-center md:justify-start bg-slate-700 min-w-86 max-w-96 h-32 md:w-135 md:max-w-140 md:h-auto mb-2 md:mb-6 rounded-xl">
                             <div className="w-30 h-32 md:w-38 md:h-46 rounded-tl-xl rounded-bl-xl overflow-hidden">
                                 <Image className="w-full h-full scale-170 object-cover"
                                     src={item.img} alt="hmps si"

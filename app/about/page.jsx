@@ -44,7 +44,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <section className="mt-12 flex items-center justify-center mb-64">
+            <section className="mt-12 flex items-center justify-center mb-64 px-1 md:px-0">
                 <Member />
             </section>
             <footer>
