@@ -31,10 +31,6 @@ export default function HamburgerMenu() {
                                 <li className="mb-4 md:mb-12">
                                     <Link href='/about' className="block">Tentang kami</Link>
                                 </li>
-                                <li className="mb-4  md:mb-12">Kontak</li>
-                                <li className="mb-4 md:mb-12">
-                                    <Link href='/login' className="block">Admin</Link>
-                                </li>
                             </ul>
                         </main>
                     </div>}
