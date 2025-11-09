@@ -10,9 +10,10 @@
     --color-primary: #0086c9;
     --color-disable: #a0a0a0;
 
-    --spacing-74: 18.5rem; 
+    --spacing-74: 18.5rem;
     --spacing-140: 35rem;
 }
+
 
 
 @media (min-width: 1000px) {
