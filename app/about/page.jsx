@@ -18,7 +18,7 @@ export default function About() {
                         <Image className="w-38 h-38 object-contain"
                             src={logo} alt="hmps si" />
                     </div>
-                    <div className="px-8 md:px-18 py-8 mt-12 md:mt-0 ">
+                    <div className="px-8 md:px-18 py-8 mt-12 md:mt-0 font-['Times_New_Roman']">
                         <h1 className="font-serif text-2xl font-bold mb-4">HMPS SI</h1>
                         <p className="mb-4">Himpunan Mahasiswa Sistem Informasi</p>
                         <p className="mb-6">HIMA SI adalah organisasi yang terdiri dari mahasiswa program studi Sistem Informasi, dengan tujuan untuk memberikan wadah pengembangan diri melalui banyak kegiatan di dalamnya. Dan juga sebagai perantara seluruh mahasiswa Sistem Informasi untuk menyampaikan aspirasi serta saran mengenai program studi Sistem Informasi. Selain itu, HIMA SI juga berperan sebagai wadah untuk mempererat hubungan antar mahasiswa Sistem Informasi.</p>

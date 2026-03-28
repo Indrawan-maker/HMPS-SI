@@ -110,9 +110,12 @@ export default function Member() {
                                 <h4 className="font-bold text-sm md:text-base font-serif mb-4 mt-1 md:mb-8 md:mt-1">{item.name}</h4>
                                 <p className="text-sm mb-2 md:mb-0">{item.divisi}</p>
                                 <div className="flex gap-1 md:gap-2">
-                                    <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"
-                                    />
+                                    <a href="https://www.instagram.com/ ">
+                                    <FaInstagram className="w-4 h-4 md:w-5 md:h-5 cursor-pointer"/>
+                                    </a>
+                                    <a href="https://www.linkedin.com/feed/">
                                     <AiOutlineLinkedin className="w-4 h-4 md:w-5 md:h-5 cursor-pointer" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
