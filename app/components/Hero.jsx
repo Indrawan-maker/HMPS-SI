@@ -10,7 +10,6 @@ export default function Hero() {
             <Image className="absolute inset-0 w-full h-full object-cover"
                 src={img} alt="hmps_uinsi" />
             <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/50 to-white/90"></div>
-
             <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6">
                 <h1 className={`text-6xl md:text-8xl font-serif text-black text-center mb-8 font-extralight`}>
                     Himpunan Mahasiswa <br /> Sistem Informasi
