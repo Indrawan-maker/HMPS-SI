@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function About() {
     return (
-        <div className="bg-gray-100 min-h-screen w-full">
+        <div className="bg-gray-100 text-white min-h-screen w-full">
             <nav className="">
                 <Navbar />
             </nav>

@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
             </section>
 
-            <section  className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+            <section  className="footer sm:footer-horizontal bg-gray-800 text-white p-10">
             <aside>
                 <Image src={img} alt="sistem informasi" className="w-12 h-12" loading="lazy"/>
                 <p>
