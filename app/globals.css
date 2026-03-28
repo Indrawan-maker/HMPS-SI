@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-    themes: false;
+    themes: light --default;
 }
 
 .custom-image-position {
