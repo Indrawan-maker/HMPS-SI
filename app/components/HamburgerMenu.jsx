@@ -22,7 +22,7 @@ export default function HamburgerMenu() {
                                 </div>
                                 <h2 className="text-xl md:text-2xl font-extralight text-black font-serif">HMPS SI</h2>
                             </div>
-                            <Hamburger toggled={isOpen} toggle={setOpen} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
+                            <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} size={24} duration={0.9} distance="sm" color="#000000" label="Show menu" easing="ease-in" direction="left" hideOutline={false}
                             />
                         </header>
                         <main className="flex justify-center items-center h-screen text-sm md:text-2xl text-center font-serif -mt-28 md:mt-0">

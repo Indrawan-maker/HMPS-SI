@@ -13,14 +13,14 @@ const Footer = () => {
                 </div>
                 <div className="grid -mt-28 md:mt-0">
                     <h2 className="font-bold font-serif mb-2 text-gray-800">UINSI</h2>
-                    <p className="text-sm md:text-sm text-gray-800 text-left min-w-72 md:max-w-xl leading-relaxed tracking-wide">Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda (UINSI Samarinda) merupakan perguruan tinggi Islam negeri yang memadukan penguasaan ilmu pengetahuan, teknologi, dan seni dengan pengembangan kepribadian islami yang kompeten serta berkarakter. Sebagai salah satu universitas Islam negeri di Indonesia, UINSI berkomitmen melahirkan generasi intelektual muslim yang unggul dalam bidang akademik, berakhlak mulia, serta siap berkontribusi dalam pembangunan bangsa dan peradaban.
+                    <p className="text-sm font-['Times_New_Roman'] md:text-sm text-gray-800 text-left min-w-72 md:max-w-xl leading-relaxed tracking-wide">Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda (UINSI Samarinda) merupakan perguruan tinggi Islam negeri yang memadukan penguasaan ilmu pengetahuan, teknologi, dan seni dengan pengembangan kepribadian islami yang kompeten serta berkarakter. Sebagai salah satu universitas Islam negeri di Indonesia, UINSI berkomitmen melahirkan generasi intelektual muslim yang unggul dalam bidang akademik, berakhlak mulia, serta siap berkontribusi dalam pembangunan bangsa dan peradaban.
                         Pada tahun 2021, UINSI Samarinda resmi berdiri berdasarkan Peraturan Presiden Republik Indonesia Nomor 17 Tahun 2021 tentang Perubahan Institut Agama Islam Negeri (IAIN) Samarinda menjadi Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda.</p>
                 </div>
             </section>
 
             <section  className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
             <aside>
-                <Image src={img} alt="sistem informasi" className="w-12 h-12"/>
+                <Image src={img} alt="sistem informasi" className="w-12 h-12" loading="lazy"/>
                 <p>
                     Sistem Informasi
                     <br />

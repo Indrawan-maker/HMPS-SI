@@ -11,19 +11,19 @@ export default function Avatar() {
                     <div className="w-12">
                         
                         <Image className="transition-transform duration-500 scale-140 w-full h-full object-cover"
-                        src={img1} alt="hmps si" />
+                        src={img1} alt="hmps si" loading="lazy"/>
                     </div>
                 </div>
                 <div className="avatar">
                     <div className="w-12">
                         <Image className="transition-transform duration-500 scale-170 w-full h-full object-cover"
-                        src={img3} alt="hmps si" />
+                        src={img3} alt="hmps si" loading="lazy"/>
                     </div>
                 </div>
                 <div className="avatar">
                     <div className="w-12">
                         <Image className="transition-transform duration-500 scale-180 w-full h-full object-cover"
-                        src={img2} alt="hmps si" />
+                        src={img2} alt="hmps si" loading="lazy"/>
                     </div>
                 </div>
                 <div className="avatar avatar-placeholder">

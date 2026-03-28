@@ -13,7 +13,7 @@ export default function Navbar() {
             <div className="flex justify-center items-center gap-2">
                 <div className="w-10 h-10 md:w-12 md:h-12">
                     <Image className="w-full h-full"
-                        src={img} alt="HMPS SI" />
+                        src={img} alt="HMPS SI" loading="lazy"/>
                 </div>
                 <h2 className="text-xl md:text-2xl font-extralight text-black font-serif">HMPS SI</h2>
             </div>
